@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../ESP32_Workspace/RoodsWorkspace/RoodsWorkSpace/Sign-1"
+		},
+		{
+			"name": "ScrollingSign",
+			"path": "../../../../../ESP32_Workspace/RoodsWorkspace/RoodsWorkSpace/ScrollingSign"
+		},
+		{
+			"name": "Esp32_AToAwc",
+			"path": "../../../../../ESP32_Workspace/RoodsWorkspace/RoodsWorkSpace/Esp32_AToAwc"
+		},
+		{
+			"name": "WappSign",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
