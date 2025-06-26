@@ -361,7 +361,7 @@ void loop()
         //Serial.println(ret);
         len = finalStr.length();
         len = len*6;
-        len = len*-1;
+        len = len-1;
         //Serial.println("got here3");
 
 
@@ -380,9 +380,10 @@ void loop()
 
   }    
   
-  //int myLen = newSTr.length();
-  //myLen = myLen*6;
-  //myLen = myLen* -1;
+
+  Serial.print("STring lenghth is ");
+  Serial.println(len);
+  Serial.println("should be displaying :"+finalStr);
   sign->display(finalStr,len,internet);
   //sign->display(newSTr,myLen);
 

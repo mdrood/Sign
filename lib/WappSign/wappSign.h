@@ -18,7 +18,7 @@
                 //Jeff 47 x 9
                 //Mark 55 x 10
 
- static Adafruit_NeoMatrix matrixx = Adafruit_NeoMatrix(55, 10, PIN,
+ static Adafruit_NeoMatrix matrixx = Adafruit_NeoMatrix(48, 8, PIN,
   NEO_MATRIX_TOP     + NEO_MATRIX_LEFT +
   NEO_MATRIX_ROWS + NEO_MATRIX_ZIGZAG,
   NEO_GRB            + NEO_KHZ800);

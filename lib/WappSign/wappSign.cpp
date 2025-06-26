@@ -35,15 +35,17 @@ void WappSign::display(String str, int length, bool internet){
   matrixx.setBrightness(brightness);
     matrixx.print(str);
   if(internet){
-    if(--xxxx < length ) {
-        xxxx = matrixx.width();
-        if(++piss >= intHowmany) piss = 0;
-       matrixx.setTextColor(colors[piss]);
-    }
+    matrixx.setTextColor(colors[1]);
   }else{
     matrixx.setTextColor(colors[1]);
   }
     //Serial.println("got in sign almost doen");
+    if(-xxxx < length ) {
+        xxxx = matrixx.width();
+        //if(++piss >= intHowmany) piss = 0;
+       //matrixx.setTextColor(colors[piss]);
+    }
+
   matrixx.show();
 
 }
