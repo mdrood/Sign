@@ -167,7 +167,7 @@ void setup()
 /////////////////////////   THIS IS WHERE I CHECK IF WE HAVE INTERNET OR JUST WIFI  ///////////
 
 if (WiFi.status() == WL_CONNECTED) {
-  if (WiFi.hostByName("google.com", serverIP) != NULL) {
+  if (WiFi.hostByName("google.com", serverIP) != _NULL) {
     internet = true;
       Serial.println("Google.com resolved!");
         // Comment or pass false value when WiFi reconnection will control by your code or third party library e.g. WiFiManager
