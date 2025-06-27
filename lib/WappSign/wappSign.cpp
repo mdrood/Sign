@@ -1,6 +1,6 @@
 #include "wappSign.h"
 
-#define WIDTH 48
+#define WIDTH 48 //old sign 55x10, Eric 54x10, Jeff 47x9
 #define HEIGHT 8
 #define PIN 5
 #define NUMPIXELS (WIDTH * HEIGHT)
