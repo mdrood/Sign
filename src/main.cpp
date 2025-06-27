@@ -156,7 +156,7 @@ void setup()
   fire = new Firebdb();
 
 
- sign = new WappSign(fire);
+ sign = new WappSign();
  util = new Utility(sign);
  volRest = new VolRest();
 
@@ -229,7 +229,7 @@ if (WiFi.status() == WL_CONNECTED) {
     ///String colo =  fire->getColors(); 
     ///String sunset = fire->getSunset();
     Serial.print("Sunset is ");
-     sign->setColors();  //calls db to get the color
+     //&&&&&&&&&&&&&&&&&&&sign->setColors();  //calls db to get the color
    // Serial.println(sunset);
   } else{
     internet = false;
@@ -381,10 +381,10 @@ void loop()
   }    
   
 
-  Serial.print("STring lenghth is ");
-  Serial.println(len);
-  Serial.println("should be displaying :"+finalStr);
-  sign->display(finalStr,len,internet);
+  //Serial.print("STring lenghth is ");
+  //Serial.println(len);
+ // Serial.println("should be displaying :"+finalStr);
+  sign->display(finalStr);
   //sign->display(newSTr,myLen);
 
 ///  if (Firebase.isTokenExpired()){

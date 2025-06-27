@@ -79,7 +79,8 @@ bool Utility::checkSunset(int sunset){
               Serial.println(sunset);
               setDaytime = true;
               setNightime = false;
-              sign->setBrightness(40);
+              //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&sign->setBrightness(40);
+              sign->brightness(40);
               daytime = true;
               nightime - false;
               }
@@ -92,7 +93,8 @@ bool Utility::checkSunset(int sunset){
               Serial.println(sunset);
             setDaytime = false;
             setNightime = true;
-            sign->setBrightness(20);
+//&&&&&&&&&&&&&&&&&&&&&&&&            sign->setBrightness(20);
+            sign->brightness(200);
             daytime = false;
             nightime =true;
           }
