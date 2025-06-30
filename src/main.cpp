@@ -10,6 +10,8 @@
  *
  */
 
+ /////////////to get file off of volumio pi3 http://192.168.1.58:8082/3_5_23_24_wapp.json /////
+
 #include <Arduino.h>
 #include <WiFi.h>
 #include <FirebaseESP32.h>
